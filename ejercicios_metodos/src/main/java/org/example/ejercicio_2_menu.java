@@ -13,6 +13,13 @@ public class ejercicio_2_menu {
 
         }
 
+    /**
+     * @author Alex
+     * @version 1.0
+     * Metodo para mostrar menu
+     *
+     * @param n de tipo int 
+     */
         public static void mostrarmenu(int n){
             for (int i =1; i<n-1; i++){
                 System.out.println(i + ". Opcion" +i);
